@@ -1,0 +1,16 @@
+{
+  "categories": {
+    "Documents": [".pdf", ".doc", ".docx", ".txt", ".odt", ".ppt", ".pptx", ".xls", ".xlsx", ".rtf"],
+    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp", ".ico", ".tiff"],
+    "Videos": [".mp4", ".avi", ".mkv", ".mov", ".wmv", ".flv", ".webm"],
+    "Audio": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".wma", ".m4a"],
+    "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2"],
+    "Executables": [".exe", ".msi", ".dmg", ".app", ".deb", ".rpm"],
+    "Code": [".py", ".js", ".ts", ".java", ".cpp", ".c", ".h", ".go", ".rs", ".rb", ".php", ".sh"],
+    "Spreadsheets": [".csv", ".xlsm", ".ods"],
+    "Presentations": [".pps", ".ppsx", ".odp"]
+  },
+  "default_category": "Other",
+  "conflict_strategy": "skip",
+  "exclude_extensions": [".organized"]
+}
